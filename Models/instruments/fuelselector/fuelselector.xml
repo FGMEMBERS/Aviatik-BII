@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <path>fuelselector.ac</path>
+
+  <animation>
+    <object-name>fond</object-name>
+    <object-name>knob</object-name>
+  </animation>
+
+  <animation>
+    <type>pick</type>
+    <object-name>knob</object-name>
+    <visible>true</visible>
+    <action>
+      <name>Increase</name>
+      <button>0</button>
+      <repeatable>false</repeatable>
+      <binding>
+        <command>property-adjust</command>
+        <property>controls/fuel/tank/boost-pump</property>
+        <step> 1 </step>
+        <min> 0 </min>
+        <max> 2 </max>
+        <wrap>false</wrap>
+      </binding>
+    </action>
+    <action>
+      <name>Decrease</name>
+      <button>1</button>
+      <repeatable>false</repeatable>
+      <binding>
+        <command>property-adjust</command>
+        <property>controls/fuel/tank/boost-pump</property>
+        <step> -1 </step>
+        <min> 0 </min>
+        <max> 2 </max>
+        <wrap>false</wrap>
+      </binding>
+    </action>
+  </animation>
+  
+  <animation>
+    <type>rotate</type>
+    <object-name>knob</object-name>
+    <property>controls/fuel/tank/boost-pump</property>
+    <interpolation> 
+      <entry><ind> 0 </ind><dep> -90 </dep></entry>
+      <entry><ind> 1 </ind><dep>   0 </dep></entry>
+      <entry><ind> 2 </ind><dep>  90 </dep></entry>
+    </interpolation>
+    <center>
+      <x-m> 0.00000 </x-m>
+      <y-m> 0.00000 </y-m>
+      <z-m> 0.01228 </z-m>
+    </center>
+    <axis> 
+      <x> 1 </x>
+      <y> 0 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+  
+</PropertyList>

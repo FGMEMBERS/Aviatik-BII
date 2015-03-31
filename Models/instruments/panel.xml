@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <animation>
+    <!-- Objets opaques -->
+    <object-name>panel</object-name>
+
+    <!-- Objets transparents -->
+  </animation>
+
+  <!-- ALTIMETER -->
+  <model>
+    <path>Aircraft/Aviatik-BII/Models/instruments/alt/alt.xml</path>
+    <offsets>
+      <x-m>  0.689 </x-m>
+      <y-m> -0.165 </y-m>
+      <z-m>  0.2042 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- TURN -->
+  <model>
+    <path>Aircraft/Aviatik-BII/Models/instruments/turn/turn.xml</path>
+    <offsets>
+      <x-m> 0.689 </x-m>
+      <y-m> 0.000 </y-m>
+      <z-m> 0.26 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- FUEL SELECTOR -->
+  <model>
+    <path>Aircraft/Aviatik-BII/Models/instruments/fuelselector/fuelselector.xml</path>
+    <offsets>
+      <x-m> 0.684 </x-m>
+      <y-m> -0.070 </y-m>
+      <z-m> 0.16 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- PUMP SELECTOR -->
+  <!-- <model>
+    <path>Aircraft/Aviatik-BII/Models/instruments/pump/pump.xml</path>
+    <offsets>
+      <x-m> 0.000 </x-m>
+      <y-m> 0.370 </y-m>
+      <z-m> 0.040 </z-m>
+    </offsets>
+  </model> -->
+  
+  <!-- DIVERS -->
+  <model>
+    <path>Aircraft/Aviatik-BII/Models/instruments/divers/divers.xml</path>
+    <offsets>
+      <x-m> 0.685 </x-m>
+      <y-m> 0.230 </y-m>
+      <z-m> 0.137 </z-m>
+    </offsets>
+  </model>
+
+     <!-- RPM -->
+  <model>
+    <path>Aircraft/Aviatik-BII/Models/instruments/RPM/tach.xml</path>
+    <offsets>
+      <x-m>  0.783 </x-m>
+      <y-m>  -0.242 </y-m>
+      <z-m>  0.174 </z-m>
+      <roll-deg>    0.000 </roll-deg>
+      <pitch-deg>   0.000 </pitch-deg>
+      <heading-deg> 20.000 </heading-deg>
+    </offsets>
+  </model>
+
+  <!-- Compass -->
+  <model>
+    <path>Aircraft/Aviatik-BII/Models/instruments/compass/compass.xml</path>
+    <offsets>
+      <x-m>  1.0935 </x-m>
+      <y-m>  0.279 </y-m>
+      <z-m>  -0.224 </z-m>
+      <roll-deg>    0.000 </roll-deg>
+      <pitch-deg>   90.000 </pitch-deg>
+      <heading-deg> 0.000 </heading-deg>
+    </offsets>
+  </model>
+
+  <!-- ASI -->
+  <model>
+    <path>Aircraft/Aviatik-BII/Models/instruments/ASI/asi.xml</path>
+    <offsets>
+      <x-m>  0.689 </x-m>
+      <y-m>  0.165 </y-m>
+      <z-m>  0.204 </z-m>
+      <roll-deg>      0.000 </roll-deg>
+      <pitch-deg>   0.000 </pitch-deg>
+      <heading-deg> 0.000 </heading-deg>
+    </offsets>
+  </model>
+  
+</PropertyList>

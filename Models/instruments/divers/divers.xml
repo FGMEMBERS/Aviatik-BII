@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <path>divers.ac</path>
+
+  <animation>
+    <object-name>fond</object-name>
+    <object-name>knob</object-name>
+  </animation>
+
+  <animation>
+    <type>pick</type>
+    <object-name>knob</object-name>
+    <visible>true</visible>
+  </animation>
+  
+  <!--
+  <animation>
+    <center>
+      <x-m> 0.00000 </x-m>
+      <y-m> 0.00000 </y-m>
+      <z-m> 0.01228 </z-m>
+    </center>
+    <axis> 
+      <x> 1 </x>
+      <y> 0 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+  -->
+  
+</PropertyList>

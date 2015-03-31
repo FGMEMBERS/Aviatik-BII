@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+   <sim>
+   <description>Aviatik-BII</description>
+   <author>LesterBoffo FDM and 3D Models</author>
+   <status>alpha</status>
+    <rating>
+    <FDM type="int">3</FDM>
+    <systems type="int">1</systems>
+    <model type="int">3</model>
+    <cockpit type="int">2</cockpit>
+  </rating>
+
+   <flight-model archive="y">yasim</flight-model>
+   <aero archive="y">Aviatik-BII-yasim</aero>
+
+   <startup>
+    <splash-texture>Aircraft/Aviatik-BII/Aviatik-splash.jpg</splash-texture>
+    <units>meters</units>
+    <fuel-fraction>0.8</fuel-fraction>
+   </startup>
+
+<sound>
+      <path>Aircraft/Aviatik-BII/Sounds/Aviatik-BII-sound.xml</path>
+    </sound>
+
+  <model>
+   <path>Aircraft/Aviatik-BII/Models/aviatik-bii-model.xml</path>
+  </model>
+
+  <view n="0">
+   <internal archive="y">true</internal>
+   <config>
+     <x-offset-m archive="y">0.0</x-offset-m>
+     <y-offset-m archive="y">0.53</y-offset-m>
+     <z-offset-m archive="y">1.268</z-offset-m>
+     <pitch-offset-deg>-7</pitch-offset-deg>
+   </config>
+   </view>
+
+    <view n="100">
+    <name>copilot View</name>
+    <type>lookfrom</type>
+    <internal archive="y">true</internal>
+    <config>
+      <from-model type="bool">true</from-model>
+      <x-offset-m archive="y">0.0</x-offset-m> <!-- left-right -->
+      <y-offset-m archive="y">0.53</y-offset-m> <!-- up-down -->
+      <z-offset-m archive="y">-0.035</z-offset-m> <!-- front-back -->
+      <pitch-offset-deg archive="y">-4</pitch-offset-deg>
+    </config>
+  </view>
+
+  <!-- Payload -->
+  <weight n="0">
+      <name>Pilot</name>
+      <weight-lb>180</weight-lb>
+      <max-lb>230</max-lb>
+      <min-lb>150</min-lb>
+  </weight> 
+
+  <weight n="1">
+      <name>Observer</name>
+      <weight-lb>180</weight-lb>
+      <max-lb>230</max-lb>
+      <min-lb>0</min-lb>
+  </weight>
+
+ <!-- <nasal>
+  <aviatik>
+   <path>Aircraft/Aviatik-BII/Nasal/view.nas</path>
+  </aviatik>
+ </nasal> -->
+
+ </sim>
+
+</PropertyList>
